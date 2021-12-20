@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639771686951' stop='1639771752879'>
+    <name>T-pulse tests</name>
+    <title>T-pulse tests</title>
+    <test-cases>
+        <test-case start='1639771686952' status='passed' stop='1639771694443'>
+            <name>login test</name>
+            <title>login test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639771694443' status='failed' stop='1639771737684'>
+            <name>activity monitoring</name>
+            <title>activity monitoring</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+                    at Timeout._onTimeout (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+                    at listOnTimeout (node:internal/timers:557:17)
+                    at processTimers (node:internal/timers:500:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639771737684' status='passed' stop='1639771741184'>
+            <name>dashboard test</name>
+            <title>dashboard test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639771741184' status='passed' stop='1639771744430'>
+            <name>observations test</name>
+            <title>observations test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639771744430' status='passed' stop='1639771747686'>
+            <name>reports test</name>
+            <title>reports test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639771747686' status='passed' stop='1639771752878'>
+            <name>help test</name>
+            <title>help test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

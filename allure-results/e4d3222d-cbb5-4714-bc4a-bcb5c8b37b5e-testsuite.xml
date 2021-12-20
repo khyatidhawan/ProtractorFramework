@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639769267196' stop='1639769297065'>
+    <name>T-pulse tests</name>
+    <title>T-pulse tests</title>
+    <test-cases>
+        <test-case start='1639769267197' status='passed' stop='1639769278657'>
+            <name>login test</name>
+            <title>login test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639769278657' status='passed' stop='1639769281977'>
+            <name>activity monitoring</name>
+            <title>activity monitoring</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639769281977' status='passed' stop='1639769285258'>
+            <name>dashboard test</name>
+            <title>dashboard test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639769285258' status='passed' stop='1639769288452'>
+            <name>observations test</name>
+            <title>observations test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639769288452' status='passed' stop='1639769291751'>
+            <name>reports test</name>
+            <title>reports test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639769291752' status='passed' stop='1639769297062'>
+            <name>help test</name>
+            <title>help test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

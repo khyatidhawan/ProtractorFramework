@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640000453460' stop='1640000583074'>
+    <name>T-pulse tests</name>
+    <title>T-pulse tests</title>
+    <test-cases>
+        <test-case start='1640000453460' status='passed' stop='1640000514776'>
+            <name>login test</name>
+            <title>login test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1640000514776' status='passed' stop='1640000535764'>
+            <name>dashboard test</name>
+            <title>dashboard test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1640000535764' status='passed' stop='1640000582887'>
+            <name>observations test</name>
+            <title>observations test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1640000582887' status='failed' stop='1640000583009'>
+            <name>reports test</name>
+            <title>reports test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null</message>
+                <stack-trace>TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null
+                    at new NodeError (node:internal/errors:371:5)
+                    at Function.from (node:buffer:322:9)
+                    at new Buffer (node:buffer:278:17)
+                    at writeScreenshot (C:\Users\Lenovo\node_modules\protractor-jasmine2-screenshot-reporter\index.js:212:18)
+                    at C:\Users\Lenovo\node_modules\protractor-jasmine2-screenshot-reporter\index.js:626:13
+                    at C:\Users\Lenovo\node_modules\mkdirp\index.js:49:26
+                    at FSReqCallback.oncomplete (node:fs:199:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1640000583009' status='failed' stop='1640000583070'>
+            <name>help test</name>
+            <title>help test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>NoSuchWindowError: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=96.0.4664.110)
+                  (Driver info: chromedriver=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}),platform=Windows NT 10.0.22000 x86_64)</message>
+                <stack-trace>NoSuchWindowError: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=96.0.4664.110)
+                  (Driver info: chromedriver=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}),platform=Windows NT 10.0.22000 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                From: Task: WebDriver.takeScreenshot()
+                    at Driver.schedule (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Driver.takeScreenshot (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+                    at run (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+                    at ProtractorBrowser.to.&lt;computed> [as takeScreenshot] (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+                    at C:\Users\Lenovo\Desktop\projects\ProtractorDemo\conf\conf.js:57:29
+                    at ManagedPromise.invokeCallback_ (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
